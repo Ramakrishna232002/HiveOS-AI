@@ -1,10 +1,2 @@
-# HiveOS AI
-
-Enterprise AI Operating Platform
-
-An intelligent AI platform that combines:
-- Advanced RAG
-- AI Agents
-- Tool Calling
-- Enterprise Data Integration
-- LangGraph Workflows
+# HiveOS-AI
+An Enterprise AI Operating Platform built with FastAPI, LangGraph, Advanced RAG, Tool Calling, PostgreSQL, Redis, Docker, and Local LLMs.
