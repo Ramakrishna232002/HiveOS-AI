@@ -1,0 +1,19 @@
+from fastapi import FastAPI
+
+from app.api.router import router as api_router
+
+app = FastAPI(
+    title="HiveOS AI",
+    description="Enterprise AI Operating Platform",
+    version="1.0.0",
+)
+
+app.include_router(api_router, prefix="/api/v1")
+
+
+@app.get("/")
+def home():
+    return {
+        "message": "Welcome to HiveOS AI",
+        "status": "Running"
+    }
