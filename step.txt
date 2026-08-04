@@ -1,0 +1,4 @@
+Ollama embeddings.
+
+ollama pull nomic-embed-text
+
